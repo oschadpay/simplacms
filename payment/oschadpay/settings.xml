@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<module>
+	<name>
+		Oschadpay
+	</name>
+	<settings>
+		<variable>oschadpay_merchantid</variable>
+		<name>ID мерчанта</name>
+	</settings>
+	<settings>
+		<variable>oschadpay_secret</variable>
+		<name>Секретный ключ</name>
+	</settings>
+     
+        <settings>
+		<variable>oschadpay_paymode</variable>
+		<name>Способ оплаты</name>
+	</settings>
+	<settings>
+		<variable>oschadpay_lang</variable>
+		<name>Язык окна</name>
+	</settings>
+	<settings>
+		<variable>mode</variable>
+		<name>Mode</name>
+		<options>
+			<name>Отображение на странице</name>
+			<value>onpage</value>
+		</options>
+		<options>
+			<name>Перенаправление на страницу оплаты</name>
+			<value>redirect</value>
+		</options>
+	</settings>
+</module>
